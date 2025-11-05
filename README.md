@@ -1,2 +1,1 @@
-# UniversityOfHelsinki
-Study University of Helsinki  
+# Study University of Helsinki  
