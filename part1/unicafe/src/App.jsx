@@ -28,6 +28,9 @@ const App = () => {
       <StatisticScore title="Good" value={good} />
       <StatisticScore title="Neutral" value={neutral} />
       <StatisticScore title="Bad" value={bad} />
+      <StatisticScore title="All" value={good + neutral + bad} />
+      <StatisticScore title="Average" value={((good * 1) + (neutral * 0) + (bad * -1)) / (good + neutral + bad)} />
+      <StatisticScore title="Positive" value={good / (good + neutral + bad) * 100 + " %"} />
     </div>
   )
 }
